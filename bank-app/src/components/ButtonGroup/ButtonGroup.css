@@ -1,0 +1,21 @@
+.buttonGroup {
+  background-color: #ccc6c6;
+  padding: 100px 0 50px;
+}
+
+.buttonGrid {
+  max-width: 300px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.buttonWithdraw {
+  padding: 10px;
+  background-color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  user-select: none;
+  margin: 5px 0;
+}

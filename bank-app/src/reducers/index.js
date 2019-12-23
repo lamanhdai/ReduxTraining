@@ -2,7 +2,10 @@ export const bankReducer = (state, action) => {
   switch(action.type) {
     case "withdraw_money": return {
       ...state,
-      balance: state.balance - action.payload.amount
+      account: {
+        ...state.account,
+        money: state.account.money - action.payload.amount
+      }
     };
     default: return state;
   }
