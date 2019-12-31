@@ -1,0 +1,8 @@
+.UserDetail {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.UserDetail__label {
+  color: #808080;
+}
